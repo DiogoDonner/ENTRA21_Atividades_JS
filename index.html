@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATIVIDADES</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div>
+        <label for="alert_Button">APERTE NO BOTÃO</label>
+        <button id="alert_Button">Clique-me</button>
+        <script>
+            document.getElementById("alert_Button").addEventListener("click", function () {
+                alert("olá");
+            });
+        </script>
+    </div>
+    <label for="palavra_">Digite uma palavra</label>
+    <input id="palavra_" type="text">
+    <button id="validar_botao">VALIDAR</button>
+
+</body>
+
+</html>
